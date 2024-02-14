@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="footer.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  <title>About Us</title>
+<style>
+    @font-face {
+    font-family:myFont ;
+    src: url(Anastasia.otf);
+}
+* {
+  box-sizing: border-box;
+}
+a{
+    position: relative;
+    font-size: 35px;
+    color: black;
+    text-decoration: solid;
+    margin-left: 100px;
+    font-family: myFont ;
+    src: url(Anastasia.otf)
+}
+.flex-company {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: center;
+}
+
+.flex-logo {
+  flex: 40%;
+  padding-bottom: 0%;
+  padding-left: 0%;
+}
+
+.flex-tagline {
+  padding: 20px;
+  flex: 60%;
+  align-self: center;
+  font-size: 25px;
+  
+}
+h3,h1{
+  color: black;
+  font-family: myFont ;
+  src: url(Anastasia.otf)
+}
+h3 span, h1 span {
+  padding-bottom: 10px;
+}
+p{
+    color: black;
+    font-size: smaller;
+    font-family: serif;
+}
+body{
+    background-color: #f8edeb;
+}
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 800px) {
+  .flex-company {
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>   
+   <nav class="navbar navbar-dark navbar-expand-lg" style="background-color:#292b2c;position:sticky;top: 0;z-index: 100;">
+  <img src="logo1.png" style=  "width: auto; max-width: 100%; max-height: 85px; height: auto;display: block; float: left;">
+   <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+       <span class="navbar-toggler-icon"></span>
+   </button>
+     </div>
+     <div class="collapse navbar-collapse" id="navbarCollapse">
+       <ul class="navbar-nav ml-auto">
+           <li class="navbar-item">
+               <a href="hometrial.html" class="nav-link">Home</a>
+           </li>
+           <li class="navbar-item">
+               <a href="#" class="nav-link">About Us</a>
+           </li>
+           <li class="navbar-item">
+               <a href="hometrial.html#ph" class="nav-link">Testimonials</a>
+           </li>
+           <li class="navbar-item">
+               <a href="hometrial.html#foot" class="nav-link">Contact Us</a>
+           </li>
+       </ul>
+   </div>
+   </nav>
+<br>
+
+<div class="flex-company">
+  <div class="flex-logo"><img src="pic1.jpg" style=  "width: auto; max-width: 100%; max-height: 400px; height: auto;"></div>
+  <div class="flex-tagline"><h1><span>About Our Studio</span></h1><p>Welcome to our pottery studio, where the delicate dance of hands and clay unfolds into unique masterpieces. Nestled in the heart of creativity, our artisans meticulously craft each piece, infusing it with handcrafted elegance and firing it with a genuine love for the art. Here, we celebrate the beauty of imperfections, transforming every vessel into a storytelling masterpiece.</p></div>
+</div>
+<br>
+<div class="flex-company">
+    <div class="flex-tagline"><h1><span>Workshops & Guest Artists</span></h1><p>Our studio not only serves as a haven for our resident artisans but also welcomes guest artists, each bringing their unique flair to the creative tapestry. From dynamic workshops to captivating exhibitions, our space thrives on the dynamic energy of collaboration. It's a melting pot of diverse talents, where the exchange of ideas and techniques enriches the artistic experience for both creators and enthusiasts alike. Join us in this dynamic fusion of creativity, where every visit promises a journey into the fascinating world of pottery artistry.</p></div>
+    <div class="flex-logo"><img src="workshop.jpg"  style=  "width: auto; max-width: 100%; max-height: 400px; height: auto;float: right;"></div>
+  </div>
+  <br>
+  <div class="flex-company">
+    <div class="flex-logo"><img src="events.jpg" style=  "width: auto; max-width: 100%; max-height: 400px; height: auto;"></div>
+    <div class="flex-tagline"><h1><span>Private & Group Events</span></h1><p>Elevate your gatherings with the touch of artistic flair at our pottery studio. Whether you're hosting a private event for an intimate circle or a group celebration, our studio provides a unique setting where creativity flows freely. Engage and bond over the shared experience of molding and shaping, and create lasting memories in the process. Our team is dedicated to ensuring that private and group events become bespoke, infused with the magic of hands-on artistry. Step into a world where your events transcend the ordinary, becoming beautifully crafted experiences.</p></div>
+  </div>
+  <br>
+  <br>
+
+    <div class="">
+      <h1 class="title"><span>UPCOMING EVENT IN</h1>
+      <div class="countdown-container">
+        <div>
+          <p id="days" class="big-text">0</p>
+          <span>Days</span>
+        </div>
+        <div>
+         <p id="hours" class="big-text">0</p>
+         <span>Hours</span>
+       </div>
+       <div>
+         <p id="min" class="big-text">0</p>
+         <span>Min</span>
+       </div>
+       <div>
+         <p id="sec" class="big-text">0</p>
+         <span>Sec</span>
+       </div>
+      </div>
+  <div id="foot">
+    <br>
+    <br>
+    <footer>
+      <div class="main-content">
+        <div class="left box">
+          <h2>Sustainability at Earthnique</h2>
+          <div class="content">
+            <p style="font-style: myfont; font-size: 15px; color: white;">Committed to environmental sustainability through eco-friendly practices and initiatives. At Earthnique, we are deeply committed to environmental sustainability through a range of eco-friendly practices and initiatives. From sourcing materials very responsibly to implementing energy-efficient technologies, we strive to make conscious choices that positively impact the planet..</p>
+            <div class="social" >
+              <a href="https://www.facebook.com/groups/603620753414922/"><span class="fab fa-facebook-f"></span></a>
+              <a href="#"><span class="fab fa-twitter"></span></a>
+              <a href="https://www.instagram.com/thelittlegoldfish/?igshid=OGQ5ZDc2ODk2ZA%3D%3D"><span class="fab fa-instagram"></span></a>
+              <a href="https://www.youtube.com/watch?si=F7dQjUb_FGycIdGl&v=WYK6R-D_M-4&feature=youtu.bel"><span class="fab fa-youtube"></span></a>
+            </div>
+          </div>
+        </div>
+        <div class="center box">
+          <h2>Address</h2>
+          <div class="content">
+            <div class="place">
+              <span class="fas fa-map-marker-alt"></span>
+              <span class="text">Dwarkadas,NP12 , Vile Parle 06</span>
+            </div>
+            <div class="phone">
+              <span class="fas fa-phone-alt"></span>
+              <span class="text">+91 98935647</span>
+            </div>
+            <div class="email">
+              <span class="fas fa-envelope"></span>
+              <span class="text">earthnique@gmail.com.com</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="right box">
+          <h2>Contact us</h2>
+          <div class="content">
+         <center><img src="logo1.png" width="200px" height="200px" ></center>
+              </div>
+              <div class="btn">
+                <a href="http://localhost:8000/"><button type="submit" style="width: 80%; height: 100%; color: black; margin-left: -30px; background-color: #f12020; font-size: 30px; ">Inquiry/Registeration</button></a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="bottom">
+        <center>
+          <span class="credit">Created By Earthnique | </span>
+          <span class="far fa-copyright"></span><span> 2023 All rights reserved.</span>
+        </center>
+      </div>
+    </footer>
+    <script>
+      // Set the date we're counting down to
+      var countDownDate = new Date("Jan 1, 2025 00:00:00").getTime();
+  
+      // Update the countdown every 1 second
+      var x = setInterval(function() {
+        // Get the current date and time
+        var now = new Date().getTime();
+  
+        // Calculate the remaining time
+        var distance = countDownDate - now;
+  
+        // Calculate days, hours, minutes, and seconds
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  
+        // Display the countdown
+        document.getElementById("days").innerHTML = days;
+        document.getElementById("hours").innerHTML = hours;
+        document.getElementById("min").innerHTML = minutes;
+        document.getElementById("sec").innerHTML = seconds;
+  
+        // If the countdown is over, display a message
+        if (distance < 0) {
+          clearInterval(x);
+          document.getElementById("days").innerHTML = 0;
+          document.getElementById("hours").innerHTML = 0;
+          document.getElementById("min").innerHTML = 0;
+          document.getElementById("sec").innerHTML = 0;
+          // You can add a message or perform any other action here
+        }
+      }, 1000);
+    </script>
+</body>
+</html>
+
+

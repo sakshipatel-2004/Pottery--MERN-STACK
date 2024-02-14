@@ -1,0 +1,58 @@
+@font-face {
+    font-family:myFont ;
+    src: url(Anastasia.otf);
+}
+
+a{
+    position: relative;
+    font-size: 35px;
+    color: black;
+    text-decoration: solid;
+    margin-left: 100px;
+    font-family: myFont ;
+    src: url(Anastasia.otf)
+}
+.flex-company {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+  }
+  
+  .flex-logo {
+    background-color: #f8edeb;
+    padding: 10px;
+    flex: 30%;
+  }
+  
+  .flex-tagline {
+    /*background-image: #bbb;*/
+    background-color:#f8edeb;
+    padding-top: 110px;
+    padding-bottom: 100px;
+    flex: 70%;
+    font-size: 20px;
+    align-self: center;
+    font-family: myFont ;
+    src: url(Anastasia.otf)
+  }
+  
+  /* Responsive layout - makes a one column-layout instead of two-column layout */
+  @media (max-width: 800px) {
+    .flex-company {
+      flex-direction: column;
+    }
+  }
+
+  .card-title{
+    font-size: 27px;
+    text-align: center;
+    text-decoration: underline;
+}
+.card-text{
+  font-size: 20px;
+}
+#ph{
+    text-align: center;
+}
+
+
